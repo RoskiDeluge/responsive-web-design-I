@@ -1,0 +1,77 @@
+/* At 500px And below do the following: */
+@media (max-width: 500px) {
+    nav {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    nav a {
+        padding: 15px;
+        font-size: 25px;
+    }
+
+    .item1 {
+        order: 6;
+    }
+
+    .item2 {
+        order: 5;
+    }
+    
+    .item3 {
+        order: 4;
+    }
+
+    .item4 {
+        order: 3;
+    }
+
+    .item5 {
+        order: 2;
+    }
+
+    .item6 {
+        order: 1;
+    }
+
+    .item7 {
+        order: 7;
+    }
+
+    .main_image {
+        display: none;
+    }
+
+    .logo {
+        width: 125px;
+        height: 35px;
+    }
+
+    .title_1 {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .content_1 {
+        flex-direction: column;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .content_2 {
+        flex-direction: column;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+}
+
+/* At 500px And below do the following: */
+@media (max-width: 800px) {
+    
+}
+
+
+
+
+

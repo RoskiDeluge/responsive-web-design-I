@@ -6,8 +6,12 @@
     }
 
     nav a {
-        padding: 15px;
+        padding: 10px !important;
         font-size: 25px;
+    }
+
+    .tablet_logo {
+        display:none;
     }
 
     .item1 {
@@ -45,11 +49,12 @@
     .logo {
         width: 125px;
         height: 35px;
+        margin-bottom: 2vh;
     }
 
     .title_1 {
-        margin-top: 30px;
-        margin-bottom: 30px;
+        margin-top: 10vh;
+        margin-bottom: 10vh;
     }
 
     .content_1 {
@@ -68,7 +73,28 @@
 
 /* At 800px And below do the following: */
 @media (max-width: 800px) {
-    
+    .item7 {
+        display: none;
+    }
+
+    .tablet_logo {
+        display: flex;
+        justify-content: center;
+        margin-top: 2vh;
+    }
+
+    nav a {
+        padding: 30px;
+    }
+
+    .main_image {
+        display: none;
+    }
+
+    .title_1 {
+        margin-top: 10vh;
+        margin-bottom: 10vh;
+    }
 }
 
 

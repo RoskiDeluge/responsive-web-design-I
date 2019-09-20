@@ -86,7 +86,7 @@ nav {
 }
 
 nav a {
-	padding: 40px;
+	padding: 30px;
 }
 
 hr {
@@ -210,6 +210,9 @@ button {
 	margin: 30px;
 }
 
+.tablet_logo {
+    display: none;
+}
 
 
 
